@@ -1,7 +1,7 @@
 %define module	Test-LongString
 %define name	perl-%{module}
-%define version	0.09
-%define	release %mkrel 2
+%define version	0.11
+%define	release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -9,7 +9,7 @@ Release:	%{release}
 Summary:	Perl module to test strings for equality
 License:	GPL or Artistic
 Group:		Development/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{module}-%{version}.tar.bz2
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
