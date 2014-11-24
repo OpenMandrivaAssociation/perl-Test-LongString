@@ -1,10 +1,10 @@
 %define modname	Test-LongString
-%define modver 0.16
+%define modver 0.17
 
 Summary:	Perl module to test strings for equality
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	2
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
