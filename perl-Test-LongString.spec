@@ -4,11 +4,11 @@
 Summary:	Perl module to test strings for equality
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	5
+Release:	6
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Url:		http://metacpan.org/pod/Test::LongString
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::Builder::Tester)
 BuildRequires:	perl-devel
