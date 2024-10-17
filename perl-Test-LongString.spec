@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	8
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Test::LongString
+Url:		https://metacpan.org/pod/Test::LongString
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::Builder::Tester)
