@@ -1,14 +1,13 @@
 %define modname	Test-LongString
-%define modver 0.17
 
 Summary:	Perl module to test strings for equality
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	9
+Version:	0.17
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::LongString
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Test::Builder::Tester)
 BuildRequires:	perl-devel
@@ -21,17 +20,17 @@ HTML document, or find specific items in binary data, this is the module for
 you.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
 %check
 make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc Changes README
