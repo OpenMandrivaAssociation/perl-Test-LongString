@@ -9,6 +9,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::LongString
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Test::Builder::Tester)
 BuildRequires:	perl-devel
 
